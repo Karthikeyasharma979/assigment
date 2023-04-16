@@ -1,0 +1,21 @@
+Q1. What is a tuple in Python?
+A tuple is an ordered and immutable sequence of elements in Python. It is similar to a list, but unlike lists, tuples cannot be modified once they are created. Tuples are often used to group related data together in a single object.
+
+Q2. How do you create a tuple in Python?
+To create a tuple in Python, you can enclose a comma-separated sequence of elements in parentheses (). For example:
+
+Q3. What is the difference between a tuple and a list in Python?
+The main differences between tuples and lists in Python are:
+
+Tuples are immutable, while lists are mutable. Once a tuple is created, you cannot modify its contents. Lists, on the other hand, can be modified by adding, removing, or changing elements.
+Tuples use less memory than lists. Since tuples are immutable, Python can allocate memory more efficiently for tuples than for lists.
+Tuples are usually used for fixed-size collections of related items, while lists are used for collections that can grow or shrink in size.
+
+Q4. Can a tuple be changed in Python?
+No, a tuple cannot be changed in Python once it is created. This means that you cannot add, remove, or modify elements of a tuple. However, you can create a new tuple based on an existing tuple by concatenating tuples or slicing tuples.
+
+Q5. How do you access elements in a tuple?
+You can access individual elements in a tuple using square brackets [] and the index of the element you want to access. The index starts from 0 for the first element in the tuple. For example:
+
+Q6. How do you unpack a tuple in Python?
+You can unpack a tuple in Python by assigning its elements to separate variables.
